@@ -1,8 +1,8 @@
 use actix_web::{HttpServer,App,get,Responder,web};
 
-#[get("/index.html")]
-async fn hello_actix_web() -> impl Responder{
-    "Hello Actix Web"
+#[get("/hello/{name}")]
+async fn hello_actix_web(name: web::Path<String>) -> impl Responder{
+    format!("Hello Actix Web, path argv is {}",name)
 }
 
 #[actix_web::main]
