@@ -9,8 +9,8 @@ fn spawn_stdin_channel() -> Receiver<String>{
     thread::spawn(move ||{
         loop{
             let mut line: String = String::new();
-            std::io::stdin().read_line(&mut line);
-            sender.send(line);
+            std::io::stdin().read_line(&mut line).unwrap();
+            sender.send(line).unwrap();
         }
 
     });
@@ -18,7 +18,7 @@ fn spawn_stdin_channel() -> Receiver<String>{
 }
 fn main(){
     let mut tcp_client = TcpStream::connect("127.0.0.1:45678").expect("Error: Connect server failed.");
-    let mut stdin_channel = spawn_stdin_channel();
+    let stdin_channel = spawn_stdin_channel();
     tcp_client.set_read_timeout(Some(Duration::new(1, 0))).expect("Error: Set read timeout failed!");
     loop {
         let mut receiver_content: [u8; 4096] = [0; 4096];
