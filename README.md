@@ -8,6 +8,7 @@
 ## actix-web-demo
  - [X]&ensp;hello_actix_web
  - [X]&ensp;hello_assets
+ - [X]&ensp;hello_json
 ## Lifetime
  - [X]&ensp;simple
 ## Socket
