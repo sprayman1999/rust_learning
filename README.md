@@ -1,19 +1,19 @@
 # rust_learning
 ## actix-web-demo
- - [X]hello_actix_web
- - [X]hello_assets
+ - [X]&ensp;hello_actix_web
+ - [X]&ensp;hello_assets
 ## lifetime
- - [X]simple
+ - [X]&ensp;simple
 ## socket
- - [X]simple_tcp_client
- - [X]simple_udp_client
- - [X]simple_tcp_server
- - [X]simple_tcp_server
+ - [X]&ensp;simple_tcp_client
+ - [X]&ensp;simple_udp_client
+ - [X]&ensp;simple_tcp_server
+ - [X]&ensp;simple_tcp_server
 ## bevyengine
 ## gui
 ## compiler
- - []lexer
- - []parser
- - []llvm_demo
+ - [&ensp;]&ensp;lexer
+ - [&ensp;]&ensp;parser
+ - [&ensp;]&ensp;llvm_demo
 ## kernel
- - []hello_kernel
+ - [&ensp;]&ensp;hello_kernel
