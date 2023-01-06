@@ -8,18 +8,18 @@
 ## actix-web-demo
  - [X]&ensp;hello_actix_web
  - [X]&ensp;hello_assets
-## lifetime
+## Lifetime
  - [X]&ensp;simple
-## socket
+## Socket
  - [X]&ensp;simple_tcp_client
  - [X]&ensp;simple_udp_client
  - [X]&ensp;simple_tcp_server
  - [X]&ensp;simple_tcp_server
-## bevyengine
-## gui
-## compiler
+## Bevy Engine
+## GUI
+## Compiler
  - [&ensp;]&ensp;lexer
  - [&ensp;]&ensp;parser
  - [&ensp;]&ensp;llvm_demo
-## kernel
+## Kernel
  - [&ensp;]&ensp;hello_kernel
