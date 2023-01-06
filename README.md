@@ -10,7 +10,7 @@
  - [X]&ensp;hello_assets
  - [X]&ensp;hello_json
 ## Lifetime
- - [X]&ensp;simple
+ - [X]&ensp;hello_lifetime
 ## Socket
  - [X]&ensp;simple_tcp_client
  - [X]&ensp;simple_udp_client
