@@ -1,7 +1,7 @@
 use std::fs::File;
 
 use actix_files::Files;
-use actix_web::{HttpServer,App,get,Responder,web};
+use actix_web::{HttpServer,App};
 
 #[actix_web::main]
 async fn main() -> std::io::Result::<()>{
