@@ -1,4 +1,9 @@
-# rust_learning
+<div align="center">
+  <h1>Rust Learning</h1>
+  <p>
+    <strong>本人学习Rust过程中顺手编写的简单DEMO合集</strong>
+  </p>
+</div>
 ## actix-web-demo
  - [X]&ensp;hello_actix_web
  - [X]&ensp;hello_assets
