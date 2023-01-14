@@ -9,6 +9,9 @@
  - [X]&ensp;hello_actix_web
  - [X]&ensp;hello_assets
  - [X]&ensp;hello_json
+## std-demo
+ - [X]&ensp;LinkedList(box.rs)
+ - [X]&ensp;file_operation
 ## Lifetime
  - [X]&ensp;hello_lifetime
 ## Socket
